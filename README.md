@@ -5,17 +5,17 @@ The goal of this project is to provide an estimate of the statistical precision 
 This is the code repository for the project, including the toy Monte Carlo simulation framework and other related analyses.
 
 
-# Toy Monte Carlo Simulation
+## Toy Monte Carlo Simulation
 
 The file simulation.py performs the simulation and writes the configuration and simulation results. The file analysis.py then read the output from the simulation to produce plots.
 
 
-# Single Pseudo-Experiment Simulation
+## Single Pseudo-Experiment Simulation
 
 The file single.py performs a single pseudo-experiment and generates truth-level PDF plots and the iminuit output for the run.
 
 
-# Fisher Information Approach
+## Fisher Information Approach
 
 An alternative approach to the project is predicting the precision anlytically via the Fisher information, which is beyond the scope of this project. This part is included here only for demonstration purposes.
 
