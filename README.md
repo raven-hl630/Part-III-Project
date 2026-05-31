@@ -21,4 +21,4 @@ The file "time_dependent_acceptance.py" is an older script where a time-dependen
 
 An alternative approach to the project is predicting the precision anlytically via the Fisher information, which is beyond the scope of this project. This part is included here only for demonstration purposes.
 
-The file "fisher_information_integration.py" gives the exact per-event Fisher information of the CP violation parameter $S_{f}$ in the statistical model. The file "fisher_information_analysis.py" then computes the predicted precision of $S_{f}$ under significant simplification assumptions.
+In the "Fisher" directory, "fisher_information_integration.py" gives the exact per-event Fisher information of the CP violation parameter $S_{f}$ in the statistical model, "fisher_information_analysis.py" then computes the predicted precision of $S_{f}$ under significant simplification assumptions.
