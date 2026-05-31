@@ -1,20 +1,17 @@
 # Part III Project - Time-Dependent CP Violation at the Future Circular Collider
 
 This project studies the time-dependent CP violation in the decay channel $B^{0} \rightarrow J/\psi K^{0}_{S}$, from which the CKM angle $\beta$ can be determined.
-In this channel, the CP violation parameter $S_{f}$ is related to $\beta$ via the relation $S_{f} = \sin(2\beta)$ with small theoretical uncertainties due to subleading contributions.
-The CP asymmetry in this channel can also be expressed simply as $A_{CP} = S_{f} sin(x \Gamma t)$ to a high accuracy.
+In this decay channel, the CP violation parameters are $C_{f} \approx 0$ and $S_{f} = \sin(2\beta)$ to leading order. The CP asymmetry is simply $A_{CP} \approx S_{f} sin(x \Gamma t)$.
 The goal of this project is to provide an estimate of the statistical precision in $\beta$ measurements at the proposed FCC-ee using toy Monte Carlo simulations.
+This model is based on a simultaneous decay-time and incariant-mass fit of flavour-tagged events. Detector and selection effects such as signal acceptance, background contributions, and flavour mistagging have been incorporated.
 This is the code repository for the project, including the toy Monte Carlo simulation framework and other related analyses.
 
 
 ## Toy Monte Carlo Simulation
 
-The file simulation.py performs the simulation and writes the configuration and simulation results. The file analysis.py then reads the output from the simulation to produce plots.
+In the "simulation" directory, "simulation.py" performs the simulation and writes the results, and then running "analysis.py" will produce relevant plots.
 
-
-## Single Pseudo-Experiment Simulation
-
-The file single.py performs a single pseudo-experiment and generates truth-level PDF plots and the iminuit output for the run.
+The file "single.py" performs a single pseudo-experiment and generates truth-level PDF plots and the iminuit output for the run.
 
 
 ## Fisher Information Approach
